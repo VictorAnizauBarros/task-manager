@@ -39,13 +39,16 @@ O **Gerenciador de Tarefas** é uma aplicação web simples que permite aos usu�
 │   │   └── taskService.js
 │   └── views
 │       ├── content
-│       ├── main.ejs
-│       └── layout.ejs
+│       │   ├── login.ejs
+│       │   ├── register.ejs
+│       │   └── task.ejs
+│       └── main.ejs
 ├── .env
 ├── prisma
 │   └── schema.prisma
 ├── package.json
 └── README.md
+
 ```
 
 ## Como Configurar e Instalar
